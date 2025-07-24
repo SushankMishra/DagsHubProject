@@ -1,0 +1,11 @@
+preprocess:
+  input: data/raw/Social_Network_Ads.csv
+  output: data/processed/Social_Network_Ads_processed.csv
+
+train:
+  input: data/processed/Social_Network_Ads_processed.csv
+  output: models/Social_Network_Ads_model.pkl
+  test_size: 0.2
+  random_state: 42
+  n_estimators: 100
+  max_depth: 5
