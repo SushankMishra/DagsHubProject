@@ -4,7 +4,7 @@ preprocess:
 
 train:
   input: data/processed/Social_Network_Ads_processed.csv
-  output: models/Social_Network_Ads_model.pkl
+  output: models
   test_size: 0.2
   random_state: 42
   n_estimators: 100
