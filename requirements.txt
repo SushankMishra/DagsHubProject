@@ -1,2 +1,6 @@
 pandas
-Pyyaml
+numpy
+scikit-learn
+matplotlib
+PyYAML
+dvc
